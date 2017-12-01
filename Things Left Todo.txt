@@ -1,0 +1,6 @@
+1) Create all tests according to book or online
+2) Record all test outputs via code 
+3) Code in the POSIX thread scheduling from the book 
+4) Record all test outputs from POSIX 
+5) Run on HPCC the scheduling algorithms
+6) Create powerpoint slides 
