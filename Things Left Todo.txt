@@ -1,6 +1,13 @@
-1) Create all tests according to book or online
-2) Record all test outputs via code 
-3) Code in the POSIX thread scheduling from the book 
-4) Record all test outputs from POSIX 
-5) Run on HPCC the scheduling algorithms
-6) Create powerpoint slides 
+1) Create test for theoretical data from book and online, and screenshot results to use in slides later
+2) Create tests for posix-rt.c, by first creating a long running thread (sorting algo like bubble?), and
+   create shorter running threads (possibly shubert, maybe something else) 
+3) Keep track of run times for posix-rt.c, start times and end times for each thread if possible using an array
+   for time. Each thread adds to the array for a final output later.
+4) If we can't add times to array and shit gets complicated, lets just find the overall run time for the whole 
+   program and output that. 
+5) Duplicate the program and change the scheudling algorithm to the other one 
+6) Make a output file containing runtimes, run the programs like ~5 times and we can average it all just to make 
+   sure
+7) Run on HPCC just to test if we have time, its OK if we don't
+8) Create slides using data and notes from OneNote
+

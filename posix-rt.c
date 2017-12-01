@@ -19,7 +19,7 @@
 /* the thread runs in this function */
 void *runner(void *param); 
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, policy;
 	pthread_t tid[NUM_THREADS]; 	/* the thread identifier */
@@ -35,7 +35,7 @@ main(int argc, char *argv[])
 		if (policy == SCHED_OTHER)
 			printf("SCHED_OTHER\n");
 		else if (policy == SCHED_RR)
-			printf("SCHED_OTHER\n");
+			printf("SCHED_RR\n");
 		else if (policy == SCHED_FIFO)
 			printf("SCHED_FIFO\n");
 	}
@@ -64,3 +64,4 @@ void *runner(void *param)
 
 	pthread_exit(0);
 }
+
