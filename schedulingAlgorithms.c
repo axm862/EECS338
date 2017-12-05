@@ -1,3 +1,5 @@
+//Aditya Malik
+//Steve Ruan
 #include <pthread.h>
 #include <string.h>
 #include <stdio.h>
