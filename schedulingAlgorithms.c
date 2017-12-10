@@ -1,5 +1,3 @@
-//Aditya Malik
-//Steve Ruan
 #include <pthread.h>
 #include <string.h>
 #include <stdio.h>
@@ -98,7 +96,7 @@ void *roundRobin() {
 }
 
 void *firstComeFirstServe() {
-	int i, j, 
+	int i, j; 
 	int processes; //for number of processes 
 	int burst_time[20], wait_time[20], turnaround_time[20];
 	float avg_turnaround_time = 0, avg_wait_time = 0;
