@@ -138,7 +138,7 @@ void *smallProcess()
         //array[i] = rand() % 1000000 + 1; //range is from 1 to 1000000
         array[i] = i;
     }
-    //print elements from 0 to 9999999
+    //print elements from 0 to 999999
     // printf("elements:\n");
     // for(i = 0; i < size; i++) {
     // 	printf("%d, ", array[i]);
